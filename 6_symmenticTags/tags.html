@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Table & Form</title>
+  </head>
+  <body>
+    <form>
+      <table border="1" cellspacing="1" cellpadding="0">
+        <thead>
+          <tr>
+            <th rowspan="3" colspan="4">Fill The Form Below.</th>
+          </tr>
+          <tr></tr>
+          <tr></tr>
+        </thead>
+        <tr>
+          <td><label for="name">Name:</label></td>
+          <td>
+            <input type="text" name="myName" id="name" />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="password">Password:</label>
+          </td>
+          <td>
+            <input type="password" name="myPwd" id="password" />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="feddback">Feedback:</label>
+          </td>
+          <td>
+            <textarea name="myText" id="feddback"></textarea>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="gender">Gender:</label>
+          </td>
+          <td>
+            <input type="radio" name="myGen" id="gender" />Male
+            <input type="radio" name="myGen" id="gender" />Female
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="sub">Subjects:</label>
+          </td>
+          <td>
+            <input type="checkbox" name="mySub" id="sub" />Web
+            <input type="checkbox" name="mySub" id="sub" />Maths
+            <input type="checkbox" name="mySub" id="sub" />Graphics
+            <input type="checkbox" name="mySub" id="sub" />English
+          </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>
+            <button type="submit">Submit Above Details</button>
+            <button type="reset">Reset all</button>
+          </td>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Application Form</title>
+  </head>
+  <body>
+    <!-- application form goes here -->
+    <h1>Application Form</h1>
+
+    <fieldset>
+      <legend><em>Please Complete the Application Form</em></legend>
+      <form>
+        <br /><br />
+        <label for="firstName">First Name:</label>
+        <input
+          type="text"
+          name="myName"
+          id="firstName"
+          required
+          autocomplete="off"
+        />
+
+        <label for="lastName">Last Name:</label>
+        <input
+          type="text"
+          name="mylastName"
+          id="lastName"
+          required
+          autocomplete="off"
+        />
+
+        <br /><br />
+
+        <label for="DOB">Date of Birth:</label>
+        <input type="date" name="myDOB" id="DOB" required />
+
+        <label for="age">Age:</label>
+        <input
+          type="number"
+          name="myAge"
+          id="age"
+          required
+          autocomplete="off"
+        />
+
+        <br /><br />
+
+        <label for="gender">Gender:</label>
+        <select name="Gender" id="gender">
+          <option value="Male">Male</option>
+          <option value="Female">Female</option>
+          <option value="Others">Others</option>
+        </select>
+
+        <label for="email">Email Address: </label>
+        <input
+          type="text"
+          name="myemail"
+          id="email"
+          required
+          autocomplete="off"
+          placeholder="Enter your Email Address"
+          required
+        />
+        <br /><br />
+
+        <label for="position">Positions Available: </label>
+        <input
+          type="radio"
+          name="myPosition"
+          id="position"
+          value="Junior Developer"
+        />Junior Developer
+        <input
+          type="radio"
+          name="myPosition"
+          id="position"
+          value="Mid Developer"
+        />Mid-Level Developer
+        <input
+          type="radio"
+          name="myPosition"
+          id="position"
+          value="Sen Developer"
+        />Senior Developer
+
+        <br /><br />
+
+        <label for="programming">Prog Language: </label>
+        <input
+          type="checkbox"
+          name="programming"
+          id="programming"
+          value="java"
+        />Java
+        <input
+          type="checkbox"
+          name="programming"
+          id="programming"
+          value="javaScript"
+        />Java Script
+        <input
+          type="checkbox"
+          name="programming"
+          id="programming"
+          value="Python"
+        />Python
+
+        <br /><br />
+
+        <label for="password">Password: </label>
+        <input
+          type="password"
+          name="myPassword"
+          id="password"
+          required
+          autocomplete="off"
+        />
+
+        <label for="cnfpwd">Confirm Password: </label>
+        <input
+          type="password"
+          name="cnfpassword"
+          id="cnfpwd"
+          required
+          autocomplete="off"
+        />
+
+        <br /><br />
+
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+      </form>
+    </fieldset>
+  </body>
+</html>
